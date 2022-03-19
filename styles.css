@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: "Patrick_Hand", sans-serif;
+    background-image: url("assets/World\ Map.png");
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.header-wrapper {
+    height: 140px;
+    background-color: lightblue;
+    color: darkblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    /* border-bottom:  ; */
+}
+
+.left-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right-column {
+   padding-right: 0px;
+}
+
+
+.header-styles {
+    font-family: "Patrick_Hand";
+    font-size: 1em;
+}
+
+.center-column {
+    width: 650px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 42px;
+}
+
+.logo img {
+    width: 216px;
+    height: 100%;
+}
+
+.link-wrapper {
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    width: 70px;
+    text-align: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.nav-link:hover {
+    color: #bcca99;
+    letter-spacing: 2px;
+}
+
+.right-column {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    font-size: 2em;
+}
+
+.icon-mr {
+    margin-right: 15px;
+}
+/* 
+.icon-ml {
+
+} */
+
+.main-section {
+    padding: 100px;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.subsection-title {
+    display: flex;
+    align-items: center;
+
+}
+
+#experience{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.bottom-heading{
+    width: 50%;
+    margin: 10 10 80px 100px;
+    background-color:#395A6A ;
+    padding: 20px;
+    border-radius: 20px;
+    color:#fff;
+    display: flex;
+    
+ 
+}
+
+
+.content{
+    width: 50%;
+    margin: 0 0 60px 80px;
+    background-color: #54859C;
+    padding: 20px;
+    border-radius: 10px;
+    color: #C0BBB9;
+}
