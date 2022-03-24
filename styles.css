@@ -2,6 +2,8 @@ body {
     margin: 0;
     font-family: "Patrick_Hand", sans-serif;
     background-image: url("assets/World\ Map.png");
+    background-attachment: fixed;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -130,3 +132,9 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 10px;
     color: #C0BBB9;
 }
+
+.link-connect {
+    font-size: 45px;
+}
+
+
